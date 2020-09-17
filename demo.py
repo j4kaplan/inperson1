@@ -15,7 +15,7 @@ main()
 def example():
     response= input (f"how happy are you from 1-10")
     howmany = int(response)
-    smiles = "\U0001F600" *howmany
+    smiles = "\n\U0001F600" *howmany
     print (smiles)
 
 
